@@ -19,13 +19,14 @@
 
 <div class="row--50-50 grid-demo">
   <div class="col">
-    <h4>File Upload</h4>
+    <h4>Audio Upload</h4>
 
     <form>
         <div class="p-card">
-            <h3>Text File</h3>
+            <h3>Audio File</h3>
             <p class="p-card__content">
-            <input type="file" name="text_file" accept=".txt" />
+            <input type="file" name="audio_file" accept=".mp3, .wav, .ogg" />
+
             </p>
         </div>
 
