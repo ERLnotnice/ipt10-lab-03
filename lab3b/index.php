@@ -19,13 +19,33 @@
 
 <div class="row--50-50 grid-demo">
   <div class="col">
-    <h4>Image Upload</h4>
+
+    <h4>PDF Upload</h4>
 
     <form>
         <div class="p-card">
-            <h3>Image</h3>
+            <h3>PDF File</h3>
             <p class="p-card__content">
-            <input type="file" name="image_file" accept="image/*" />
+            <input type="file" name="pdf_file" accept=".pdf" />
+
+
+    <h4>Audio Upload</h4>
+
+    <form>
+        <div class="p-card">
+            <h3>Audio File</h3>
+            <p class="p-card__content">
+            <input type="file" name="audio_file" accept=".mp3, .wav, .ogg" />
+
+
+    <h4>Video Upload</h4>
+
+    <form>
+        <div class="p-card">
+            <h3>Video</h3>
+            <p class="p-card__content">
+            <input type="file" name="video_file" accept="video/*" />
+
             </p>
         </div>
 
