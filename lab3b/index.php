@@ -20,6 +20,15 @@
 <div class="row--50-50 grid-demo">
   <div class="col">
 
+    <h4>PDF Upload</h4>
+
+    <form>
+        <div class="p-card">
+            <h3>PDF File</h3>
+            <p class="p-card__content">
+            <input type="file" name="pdf_file" accept=".pdf" />
+
+
     <h4>Audio Upload</h4>
 
     <form>
